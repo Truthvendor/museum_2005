@@ -26,6 +26,7 @@ class Museum
   end
 
   def patrons_by_exhibit_interest
-    
+    group = {}
+    group[:exhibit] = @patron[interests]
   end
 end
